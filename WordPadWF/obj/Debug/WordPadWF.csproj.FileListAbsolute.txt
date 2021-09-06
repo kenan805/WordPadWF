@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\WordPadWF\WordPadWF\bin\Debug\WordPadWF.exe.config
+C:\Users\user\source\repos\WordPadWF\WordPadWF\bin\Debug\WordPadWF.exe
+C:\Users\user\source\repos\WordPadWF\WordPadWF\bin\Debug\WordPadWF.pdb
+C:\Users\user\source\repos\WordPadWF\WordPadWF\bin\Debug\Guna.UI2.dll
+C:\Users\user\source\repos\WordPadWF\WordPadWF\obj\Debug\WordPadWF.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\WordPadWF\WordPadWF\obj\Debug\WordPadWF.Form1.resources
+C:\Users\user\source\repos\WordPadWF\WordPadWF\obj\Debug\WordPadWF.Properties.Resources.resources
+C:\Users\user\source\repos\WordPadWF\WordPadWF\obj\Debug\WordPadWF.csproj.GenerateResource.cache
+C:\Users\user\source\repos\WordPadWF\WordPadWF\obj\Debug\WordPadWF.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WordPadWF\WordPadWF\obj\Debug\WordPadWF.csproj.CopyComplete
+C:\Users\user\source\repos\WordPadWF\WordPadWF\obj\Debug\WordPadWF.exe
+C:\Users\user\source\repos\WordPadWF\WordPadWF\obj\Debug\WordPadWF.pdb
+C:\Users\user\source\repos\WordPadWF\WordPadWF\obj\Debug\WordPadWF.DateAndTimeForm.resources
