@@ -13,6 +13,9 @@ namespace WordPadWF
 {
     public partial class Form1 : Form
     {
+        bool isBold;
+        bool isUnderline;
+        bool isItalic;
         public Form1()
         {
             InitializeComponent();
@@ -46,9 +49,6 @@ namespace WordPadWF
             richTextBox1.DragDrop += Form1_DragDrop;
             richTextBox1.DragEnter += Form1_DragEnter;
         }
-        bool isBold;
-        bool isUnderline;
-        bool isItalic;
 
         private void Btn_HAlignment_Click(object sender, EventArgs e)
         {
@@ -508,7 +508,6 @@ namespace WordPadWF
                 MessageBox.Show("Succesfully saved", "Completed", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
     }
 }
 
