@@ -34,6 +34,7 @@ namespace WordPadWF
             var rb = Controls.OfType<Guna.UI2.WinForms.Guna2RadioButton>().ToList().Find(r => r.Checked == true);
             mainForm.richTextBox1.Text += rb.Text;
             this.Hide();
+            
         }
     }
 }
