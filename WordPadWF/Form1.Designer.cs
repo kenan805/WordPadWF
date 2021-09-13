@@ -29,6 +29,7 @@ namespace WordPadWF
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.toolTipFileMenu = new Guna.UI2.WinForms.Guna2HtmlToolTip();
             this.miniToolStrip = new System.Windows.Forms.MenuStrip();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -154,7 +155,7 @@ namespace WordPadWF
             this.openToolStripMenuItem.ShortcutKeyDisplayString = "";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.openToolStripMenuItem.ShowShortcutKeys = false;
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(119, 26);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.ToolTipText = "Open (Ctrl + O)";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.OpenToolStripMenuItem_Click);
@@ -165,7 +166,7 @@ namespace WordPadWF
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.saveToolStripMenuItem.ShowShortcutKeys = false;
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(119, 26);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.ToolTipText = "Save (Ctrl + S)";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.SaveToolStripMenuItem_Click);
@@ -176,7 +177,7 @@ namespace WordPadWF
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.X)));
             this.exitToolStripMenuItem.ShowShortcutKeys = false;
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(119, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.ToolTipText = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
@@ -294,8 +295,8 @@ namespace WordPadWF
             // 
             // btn_Italic
             // 
-            this.btn_Italic.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.btn_Italic.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Italic.Animated = true;
             this.btn_Italic.BorderColor = System.Drawing.Color.Transparent;
@@ -1033,12 +1034,13 @@ namespace WordPadWF
             this.ClientSize = new System.Drawing.Size(1064, 578);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.panel_Head);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.miniToolStrip;
             this.MaximumSize = new System.Drawing.Size(1082, 625);
             this.MinimumSize = new System.Drawing.Size(1082, 625);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "WordPad";
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.Form1_DragEnter);
             this.menuStrip1.ResumeLayout(false);
